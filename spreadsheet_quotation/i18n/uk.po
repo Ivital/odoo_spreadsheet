@@ -74,3 +74,64 @@ msgstr "Замовлення на продаж"
 #: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
 msgid "Unit Price"
 msgstr "Ціна за одиницю"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.xml:0
+msgid "Add"
+msgstr "Додати"
+
+#. module: spreadsheet_quotation
+#: model_terms:ir.ui.view,arch_db:spreadsheet_quotation.spreadsheet_quotation_create_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.xml:0
+msgid "Column Mappings"
+msgstr "Зіставлення колонок"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "Create New Products"
+msgstr "Створити нові товари"
+
+#. module: spreadsheet_quotation
+#: model:ir.model.fields,field_description:spreadsheet_quotation.field_sale_order__has_spreadsheet
+msgid "Has Spreadsheet"
+msgstr "Має електронну таблицю"
+
+#. module: spreadsheet_quotation
+#: model:ir.model.fields,field_description:spreadsheet_quotation.field_spreadsheet_quotation_create__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: spreadsheet_quotation
+#: model:ir.model.fields,field_description:spreadsheet_quotation.field_spreadsheet_quotation_create__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: spreadsheet_quotation
+#. odoo-python
+#: code:addons/spreadsheet_quotation/models/sale_order.py:0
+msgid "New"
+msgstr "Новий"
+
+#. module: spreadsheet_quotation
+#: model:ir.model.fields,field_description:spreadsheet_quotation.field_spreadsheet_quotation_create__line_count
+msgid "Number of lines"
+msgstr "Кількість рядків"
+
+#. module: spreadsheet_quotation
+#: model:ir.model.fields,field_description:spreadsheet_quotation.field_sale_order__spreadsheet_id
+#: model:ir.model.fields,field_description:spreadsheet_quotation.field_sale_order_template__spreadsheet_id
+msgid "Quotation Calculator"
+msgstr "Калькулятор комерційної пропозиції"
+
+#. module: spreadsheet_quotation
+#. odoo-python
+#: code:addons/spreadsheet_quotation/wizards/spreadsheet_quotation_create.py:0
+msgid "Sale Order Lines"
+msgstr "Рядки замовлення на продаж"

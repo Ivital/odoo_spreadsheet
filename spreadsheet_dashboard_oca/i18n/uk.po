@@ -57,3 +57,54 @@ msgstr "Електронна таблиця"
 #: model:ir.model.fields,field_description:spreadsheet_dashboard_oca.field_spreadsheet_to_dashboard__group_ids
 msgid "User Groups"
 msgstr "Групи користувачів"
+
+#. module: spreadsheet_dashboard_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_oca/static/src/bundle/spreadsheet_to_dashboard.esm.js:0
+msgid "Add to dashboard"
+msgstr "Додати на інформаційну панель"
+
+#. module: spreadsheet_dashboard_oca
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard_oca.spreadsheet_to_dashboard_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: spreadsheet_dashboard_oca
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard_oca.spreadsheet_dashboard_tree_view
+msgid "Copy"
+msgstr "Копіювати"
+
+#. module: spreadsheet_dashboard_oca
+#: model:ir.model.fields,field_description:spreadsheet_dashboard_oca.field_spreadsheet_spreadsheet_import__dashboard_group_id
+msgid "Dashboard Group"
+msgstr "Група панелей"
+
+#. module: spreadsheet_dashboard_oca
+#: model:ir.model.fields,field_description:spreadsheet_dashboard_oca.field_spreadsheet_to_dashboard__name
+msgid "Dashboard Name"
+msgstr "Назва панелі"
+
+#. module: spreadsheet_dashboard_oca
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard_oca.spreadsheet_dashboard_tree_view
+msgid "Edit"
+msgstr "Редагувати"
+
+#. module: spreadsheet_dashboard_oca
+#: model:ir.model.fields,field_description:spreadsheet_dashboard_oca.field_spreadsheet_to_dashboard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: spreadsheet_dashboard_oca
+#: model:ir.model.fields,field_description:spreadsheet_dashboard_oca.field_spreadsheet_to_dashboard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: spreadsheet_dashboard_oca
+#: model:ir.model.fields,field_description:spreadsheet_dashboard_oca.field_spreadsheet_dashboard__spreadsheet_raw
+msgid "Spreadsheet Raw"
+msgstr "Необроблена таблиця"
+
+#. module: spreadsheet_dashboard_oca
+#: model:ir.model.fields,field_description:spreadsheet_dashboard_oca.field_spreadsheet_dashboard__spreadsheet_revision_ids
+msgid "Spreadsheet Revision"
+msgstr "Ревізія електронної таблиці"
