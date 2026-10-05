@@ -135,3 +135,33 @@ msgstr "Калькулятор комерційної пропозиції"
 #: code:addons/spreadsheet_quotation/wizards/spreadsheet_quotation_create.py:0
 msgid "Sale Order Lines"
 msgstr "Рядки замовлення на продаж"
+
+#. module: spreadsheet_quotation
+#: model_terms:ir.ui.view,arch_db:spreadsheet_quotation.sale_order_view_form_inherit
+msgid "<span>Calculator</span>"
+msgstr "<span>Калькулятор</span>"
+
+#. module: spreadsheet_quotation
+#: model_terms:ir.ui.view,arch_db:spreadsheet_quotation.sale_order_template_view_form_inherit
+msgid "<span>Create Calculator</span>"
+msgstr "<span>Створити калькулятор</span>"
+
+#. module: spreadsheet_quotation
+#: model_terms:ir.ui.view,arch_db:spreadsheet_quotation.sale_order_template_view_form_inherit
+msgid "<span>Open Calculator</span>"
+msgstr "<span>Відкрити калькулятор</span>"
+
+#. module: spreadsheet_quotation
+#: model_terms:ir.ui.view,arch_db:spreadsheet_quotation.spreadsheet_quotation_create_form
+msgid "Create Calculator"
+msgstr "Створити калькулятор"
+
+#. module: spreadsheet_quotation
+#: model_terms:ir.ui.view,arch_db:spreadsheet_quotation.spreadsheet_quotation_create_form
+msgid "Create Quotation Calculator"
+msgstr "Створити калькулятор пропозиції"
+
+#. module: spreadsheet_quotation
+#: model:ir.model.fields,field_description:spreadsheet_quotation.field_spreadsheet_quotation_create__sale_order_template_id
+msgid "Sale Order Template"
+msgstr "Шаблон замовлення на продаж"

@@ -108,3 +108,8 @@ msgstr "Необроблена таблиця"
 #: model:ir.model.fields,field_description:spreadsheet_dashboard_oca.field_spreadsheet_dashboard__spreadsheet_revision_ids
 msgid "Spreadsheet Revision"
 msgstr "Ревізія електронної таблиці"
+
+#. module: spreadsheet_dashboard_oca
+#: model:ir.model.fields,field_description:spreadsheet_dashboard_oca.field_spreadsheet_to_dashboard__dashboard_group_id
+msgid "Dashboard Section"
+msgstr "Розділ дашборда"
