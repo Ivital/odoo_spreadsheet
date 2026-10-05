@@ -128,3 +128,15 @@ msgstr "Нова панель"
 #: model:spreadsheet.spreadsheet.import.mode,name:spreadsheet_dashboard_oca.spreadsheet_import_mode_dashboard
 msgid "To dashboard"
 msgstr "До панелі"
+
+#. module: spreadsheet_dashboard_oca
+#. odoo-python
+#: code:addons/spreadsheet_dashboard_oca/models/spreadsheet_dashboard.py:0
+msgid "Search operation not supported"
+msgstr "Операція пошуку не підтримується"
+
+#. module: spreadsheet_dashboard_oca
+#. odoo-python
+#: code:addons/spreadsheet_dashboard_oca/models/spreadsheet_dashboard.py:0
+msgid "The value has to be a boolean"
+msgstr "Значення має бути логічним"

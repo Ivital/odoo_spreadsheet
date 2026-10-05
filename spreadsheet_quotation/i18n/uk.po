@@ -197,3 +197,180 @@ msgid ""
 msgstr ""
 "Електронна таблиця, що використовується як калькулятор ціноутворення для "
 "комерційних пропозицій із цього шаблону."
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "%s line(s) created"
+msgstr "Створено рядків: %s"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "%s line(s) updated"
+msgstr "Оновлено рядків: %s"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.xml:0
+msgid "Add Mapping"
+msgstr "Додати зіставлення"
+
+#. module: spreadsheet_quotation
+#. odoo-python
+#: code:addons/spreadsheet_quotation/models/sale_order.py:0
+msgid "Calculator - %s"
+msgstr "Калькулятор — %s"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#. odoo-python
+#: code:addons/spreadsheet_quotation/models/sale_order.py:0
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "Cannot sync a cancelled quotation."
+msgstr "Неможливо синхронізувати скасовану комерційну пропозицію."
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#. odoo-python
+#: code:addons/spreadsheet_quotation/models/sale_order.py:0
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "Cannot sync a confirmed sales order."
+msgstr "Неможливо синхронізувати підтверджене замовлення на продаж."
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "Create and Sync"
+msgstr "Створити й синхронізувати"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "Do you want to create them?"
+msgstr "Створити їх?"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "Error syncing: %s"
+msgstr "Помилка синхронізації: %s"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.xml:0
+msgid "Linked to Sale Order #"
+msgstr "Пов’язано із замовленням на продаж №"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.xml:0
+msgid ""
+"Map spreadsheet columns to sale order line fields.\n"
+"                    Existing lines will be updated in place; new rows with\n"
+"                    product data will be added as new quotation lines."
+msgstr ""
+"Зіставте стовпці електронної таблиці з полями рядка замовлення на продаж.\n"
+"                    Наявні рядки буде оновлено на місці; нові рядки з\n"
+"                    даними товару буде додано як нові рядки комерційної пропозиції."
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.xml:0
+msgid ""
+"New rows with a product name will be added as new\n"
+"                        quotation lines. If a product is not found in the\n"
+"                        catalog you will be asked to confirm its creation."
+msgstr ""
+"Нові рядки з назвою товару буде додано як нові\n"
+"                        рядки комерційної пропозиції. Якщо товар не знайдено в\n"
+"                        каталозі, вам буде запропоновано підтвердити його створення."
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "No field mappings configured"
+msgstr "Зіставлення полів не налаштовано"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.xml:0
+msgid "No mappings configured yet."
+msgstr "Зіставлення ще не налаштовано."
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "No sale order line list found"
+msgstr "Список рядків замовлення на продаж не знайдено"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.xml:0
+msgid "No sale order line list found in this spreadsheet."
+msgstr "У цій таблиці не знайдено списку рядків замовлення продажу."
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "No sale order linked. Set the Sale Order filter first."
+msgstr ""
+"Не прив’язано замовлення продажу. Спочатку встановіть фільтр «Замовлення "
+"продажу»."
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "No values to sync"
+msgstr "Немає значень для синхронізації"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.xml:0
+msgid "Product sync enabled."
+msgstr "Синхронізацію товарів увімкнено."
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.xml:0
+msgid "Set the Sale Order filter to link this calculator to an order."
+msgstr ""
+"Встановіть фільтр «Замовлення продажу», щоб пов’язати цей калькулятор із "
+"замовленням."
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "Sync cancelled"
+msgstr "Синхронізацію скасовано"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.xml:0
+msgid "Sync to Sale Order"
+msgstr "Синхронізувати із замовленням на продаж"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.xml:0
+msgid "Syncing..."
+msgstr "Синхронізація..."
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid ""
+"The following products were not found in the catalog and will be created:"
+msgstr "Такі товари не знайдено в каталозі й буде створено:"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "This column already has a mapping"
+msgstr "Ця колонка вже має зіставлення"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "This field already has a mapping"
+msgstr "Це поле вже має зіставлення"
