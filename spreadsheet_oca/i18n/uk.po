@@ -614,3 +614,91 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:spreadsheet_oca.field_spreadsheet_spreadsheet__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: spreadsheet_oca
+#: model:ir.model.constraint,message:spreadsheet_oca.constraint_spreadsheet_spreadsheet_tag_name_uniq
+msgid "A tag with the same name already exists."
+msgstr "Тег із такою назвою вже існує."
+
+#. module: spreadsheet_oca
+#: model:spreadsheet.spreadsheet.import.mode,name:spreadsheet_oca.spreadsheet_import_mode_new
+msgid "Create spreadsheet"
+msgstr "Створити електронну таблицю"
+
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+msgid "Edit domain"
+msgstr "Редагувати домен"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,help:spreadsheet_oca.field_spreadsheet_spreadsheet__company_id
+msgid ""
+"If set, the spreadsheet will be available only if this company is in the "
+"current companies."
+msgstr ""
+"Якщо задано, електронна таблиця буде доступна лише коли ця компанія входить "
+"до поточних компаній."
+
+#. module: spreadsheet_oca
+#: model:ir.model,name:spreadsheet_oca.model_spreadsheet_spreadsheet_import_mode
+msgid "Import Mode"
+msgstr "Режим імпорту"
+
+#. module: spreadsheet_oca
+#: model:ir.model,name:spreadsheet_oca.model_spreadsheet_spreadsheet_import
+msgid "Import data to spreadsheet"
+msgstr "Імпортувати дані в електронну таблицю"
+
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+msgid "Link to Odoo menu"
+msgstr "Посилання на меню Odoo"
+
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/chart_panels.esm.js:0
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/odoo_panels.esm.js:0
+msgid "Menu Items"
+msgstr "Пункти меню"
+
+#. module: spreadsheet_oca
+#: model:ir.model,name:spreadsheet_oca.model_spreadsheet_select_row_number
+msgid "Select number of rows to duplicate row"
+msgstr "Виберіть кількість рядків для дублювання рядка"
+
+#. module: spreadsheet_oca
+#: model:ir.model,name:spreadsheet_oca.model_spreadsheet_oca_revision
+msgid "Spreadsheet Oca Revision"
+msgstr "Ревізія електронної таблиці OCA"
+
+#. module: spreadsheet_oca
+#: model:ir.model,name:spreadsheet_oca.model_spreadsheet_spreadsheet_tag
+msgid "Spreadsheet Tag"
+msgstr "Тег електронної таблиці"
+
+#. module: spreadsheet_oca
+#: model:ir.model,name:spreadsheet_oca.model_spreadsheet_abstract
+msgid "Spreadsheet abstract for inheritance"
+msgstr "Абстракція електронної таблиці для успадкування"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,help:spreadsheet_oca.field_spreadsheet_spreadsheet_import__dynamic
+msgid ""
+"This field allows you to generate tables that its rows are updated with the "
+"filters set in the spreadsheets."
+msgstr ""
+"Це поле дає змогу створювати таблиці, рядки яких оновлюються за фільтрами, "
+"заданими в електронних таблицях."
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,help:spreadsheet_oca.field_spreadsheet_spreadsheet_tag__color
+msgid "Transparent tags are not visible in the kanban view"
+msgstr "Прозорі теги не відображаються в Kanban-представленні"
+
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet_tree/spreadsheet_tree_view.xml:0
+msgid "Upload"
+msgstr "Завантажити"

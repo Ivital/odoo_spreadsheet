@@ -113,3 +113,18 @@ msgstr "Ревізія електронної таблиці"
 #: model:ir.model.fields,field_description:spreadsheet_dashboard_oca.field_spreadsheet_to_dashboard__dashboard_group_id
 msgid "Dashboard Section"
 msgstr "Розділ дашборда"
+
+#. module: spreadsheet_dashboard_oca
+#: model:ir.model,name:spreadsheet_dashboard_oca.model_spreadsheet_to_dashboard
+msgid "Create dashboard from spreadsheet"
+msgstr "Створити панель з електронної таблиці"
+
+#. module: spreadsheet_dashboard_oca
+#: model:spreadsheet.spreadsheet.import.mode,name:spreadsheet_dashboard_oca.spreadsheet_import_mode_dashboard_new_spreadsheet
+msgid "New dashboard"
+msgstr "Нова панель"
+
+#. module: spreadsheet_dashboard_oca
+#: model:spreadsheet.spreadsheet.import.mode,name:spreadsheet_dashboard_oca.spreadsheet_import_mode_dashboard
+msgid "To dashboard"
+msgstr "До панелі"

@@ -165,3 +165,35 @@ msgstr "Створити калькулятор пропозиції"
 #: model:ir.model.fields,field_description:spreadsheet_quotation.field_spreadsheet_quotation_create__sale_order_template_id
 msgid "Sale Order Template"
 msgstr "Шаблон замовлення на продаж"
+
+#. module: spreadsheet_quotation
+#: model:ir.model,name:spreadsheet_quotation.model_spreadsheet_quotation_create
+msgid "Create Quotation Calculator Spreadsheet"
+msgstr "Створити електронну таблицю-калькулятор комерційної пропозиції"
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_plugin.esm.js:0
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.esm.js:0
+msgid "Field Sync"
+msgstr "Синхронізація полів"
+
+#. module: spreadsheet_quotation
+#: model:ir.model.fields,help:spreadsheet_quotation.field_spreadsheet_quotation_create__line_count
+msgid "Initial number of rows to display in the list."
+msgstr "Початкова кількість рядків для показу у списку."
+
+#. module: spreadsheet_quotation
+#. odoo-javascript
+#: code:addons/spreadsheet_quotation/static/src/quotation_spreadsheet/field_sync_side_panel.xml:0
+msgid "Select..."
+msgstr "Вибрати..."
+
+#. module: spreadsheet_quotation
+#: model:ir.model.fields,help:spreadsheet_quotation.field_sale_order_template__spreadsheet_id
+msgid ""
+"Spreadsheet used as pricing calculator for quotations created from this "
+"template."
+msgstr ""
+"Електронна таблиця, що використовується як калькулятор ціноутворення для "
+"комерційних пропозицій із цього шаблону."
